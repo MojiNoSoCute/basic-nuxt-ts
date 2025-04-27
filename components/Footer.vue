@@ -4,12 +4,13 @@
 
 <template>
     <footer>
+        <div class="bg-gray-800 text-white p-4 text-center">
         <p>2023 My Website</p>
-        <ul class="flex space-x-4">
-            <li><NuxtLink to="/">Home</NuxtLink></li>
-            <li><NuxtLink to="/about">About</NuxtLink></li>
-            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+        <ul>
+            <li><NuxtLink to="/privacy">Privacy</NuxtLink></li>
+            <li><NuxtLink to="/terms">Terms of Service</NuxtLink></li>
         </ul>
+    </div>
     </footer>
 </template>
 
